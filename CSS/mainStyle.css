@@ -4,19 +4,19 @@
     box-sizing: border-box;
 }
 
-nav .menu{
+.menu{
     text-align: right;
     padding: 20px 30px 0 0;
 }
 
-nav .menu > a{
+.menu > a{
     color: #642a73;
     font-weight: 500;
     text-decoration: none;
     margin-right: 10px;
 }
 
-nav .menu > a:hover{
+.menu > a:hover{
     color: #642af4;
     text-decoration: underline;
 }
@@ -50,7 +50,7 @@ header .Titulo{
 
 header{
     width: 100%;
-    height: 550px;
+    height: 600px;
     background: #FC466B;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgba(65, 96, 251, 0.397), rgba(252, 69, 106, 0.377)), url(../SOURCE/banner.jpg);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgba(65, 96, 251, 0.397), rgba(252, 69, 106, 0.377)), url(../SOURCE/banner.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
