@@ -4,19 +4,19 @@
     box-sizing: border-box;
 }
 
-nav{
+nav .menu{
     text-align: right;
     padding: 20px 30px 0 0;
 }
 
-nav > a{
+nav .menu > a{
     color: #642a73;
     font-weight: 500;
     text-decoration: none;
     margin-right: 10px;
 }
 
-nav > a:hover{
+nav .menu > a:hover{
     color: #642af4;
     text-decoration: underline;
 }
@@ -32,11 +32,11 @@ header .Titulo{
     color: #ccc;
 }
 
-.Encabezados h1{
+.Titulo h1{
     font-size: 100px;
 }
 
-.Encabezados h2{
+.Titulo h2{
     font-size: 50px;
     font-weight: 600;
 }
@@ -52,8 +52,8 @@ header{
     width: 100%;
     height: 400px;
     background: #FC466B;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(65, 96, 251, 0.555), rgba(252, 69, 106, 0.726)), url(../SOURCE/banner.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(230, 96%, 62%, 0.705), rgba(252, 69, 106, 0.596)), url(../SOURCE/banner.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, rgba(65, 96, 251, 0.397), rgba(252, 69, 106, 0.377)), url(../SOURCE/banner.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(65, 96, 251, 0.397), rgba(252, 69, 106, 0.377)), url(../SOURCE/banner.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
