@@ -10,14 +10,14 @@
 }
 
 .menu > a{
-    color: #642a73;
+    color: #ffffff;
     font-weight: 500;
     text-decoration: none;
     margin-right: 10px;
 }
 
 .menu > a:hover{
-    color: #642af4;
+    color: #000000;
     text-decoration: underline;
 }
 
