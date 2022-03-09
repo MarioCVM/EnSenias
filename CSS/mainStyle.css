@@ -60,35 +60,37 @@ header{
 }
 
 .Info{
+    cursor: default;
+    font-size: 20px;
     height: 200px;
-    width: 90%;
+    width: 70%;
     max-width: 1000px;
     overflow: hidden;
     margin: auto;
     padding: 0 0 80px 0;
+    text-align: justify;
+}
+
+.Info .informacion{
     text-align: center;
 }
 
 .MyV{
+    cursor: default;
+    padding: 10px;
     display: flex;
-}
-
-.MisionLeft{
-    height: 200px;
-    width: 90%;
+    font-size: 20px;
+    height: 300px;
     max-width: 1000px;
     overflow: hidden;
     margin: auto;
-    padding: 0 0 80px 0;
+    text-align: left;
+}
+
+.MyV .Mision_info{
     text-align: center;
 }
 
-.VisionRight{
-    height: 200px;
-    width: 90%;
-    max-width: 1000px;
-    overflow: hidden;
-    margin: auto;
-    padding: 0 0 80px 0;
+.MyV .Vision_info{
     text-align: center;
 }
