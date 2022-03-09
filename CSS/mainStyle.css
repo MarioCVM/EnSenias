@@ -58,11 +58,3 @@ header{
     background-attachment: fixed;
     position: relative;
 }
-
-MisionLeft{
-    float: left;
-}
-
-VisionRight{
-    float: right;
-}
