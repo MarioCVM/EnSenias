@@ -58,3 +58,37 @@ header{
     background-attachment: fixed;
     position: relative;
 }
+
+.Info{
+    height: 200px;
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+    text-align: center;
+}
+
+.MyV{
+    display: flex;
+}
+
+.MisionLeft{
+    height: 200px;
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+    text-align: center;
+}
+
+.VisionRight{
+    height: 200px;
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+    text-align: center;
+}
